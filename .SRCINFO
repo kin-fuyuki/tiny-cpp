@@ -1,4 +1,4 @@
-pkgbase = tiny-bin
+pkgbase = the-tiny
 	pkgdesc = tiny script runner
 	pkgver = 1.0
 	pkgrel = 1

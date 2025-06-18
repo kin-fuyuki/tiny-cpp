@@ -1,0 +1,10 @@
+out
+*.tmk
+.gitattributes
+.git
+*.exe
+tiny
+src
+*.tar*
+*.out
+pkg

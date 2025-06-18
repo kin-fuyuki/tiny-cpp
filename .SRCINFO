@@ -10,4 +10,4 @@ pkgbase = tiny
 	source = https://github.com/J-K-Tech/tiny/archive/refs/tags/1.0.tar.gz
 	sha256sums = 2af3bfa2937e7452f74895db7e12c60b67000dc9c2e9f1aa1e53f7e1537d2636
 
-pkgname = tiny
+pkgname = the-tiny

@@ -121,7 +121,7 @@ struct TDF_FILE{
 	std::vector<void*> todelete;
 	void close(){
 		for(size_t i=0;i<todelete.size();i++){
-			delete todelete[i];
+			delete static_cast<boost::unordered_map<std::string,TDF_DATA>*> (todelete[i]);
 		}
 	}
 	void* read(){
